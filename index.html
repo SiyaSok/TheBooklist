@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- <link rel="stylesheet" type="text/css" href="css/Styles.css" /> -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+ href="css\fontawesome-free-5.10.2-web\fontawesome-free-5.10.2-web\css\all.min.css" />
+<title>MyBookList App</title>
+</head>
+
+<body>
+
+<h1></h1>
+<div class="container mt-4">
+<h1 class="display-4 text-center">
+<i class="fas fa-book-open text-primary"></i>
+My<span class="text-primary">Book</span>List</h1>  
+
+<form  id="book-form">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input class="form-control"
+         type="text" id="title">
+</div>
+<div class="form-group">
+        <label for="author">Author</label>
+        <input class="form-control" 
+        type="text" id="author">
+
+</div>
+<div class="form-group">
+        <label for="isbn">ISBN#</label>
+        <input class="form-control"
+         type="text" id="isbn">
+<input type="submit" 
+class="btn btn-primary mt-4 btn-block">
+</div>
+</form>
+<table class="table table-striped mt-5">
+<thead>
+    <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>ISBN#</th>
+    <th></th>
+    </tr>
+</thead> 
+<tbody id="book-list">
+
+</tbody>
+</table> 
+
+</div>
+
+<script src="js/JS.js"></script>
+</body>
+</html>
